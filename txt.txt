@@ -1,0 +1,144 @@
+	<h2>Lavish Apartments</h2>
+    
+	<div class="content">
+	<div class="header">Welcome, <?php 
+	echo $user_data['user_name']; ?>!
+	</div>
+	<div class="user-icon">
+	<i class='bx bx-user-circle bx-md'></i>
+
+    <div class="dash">
+	<i class='bx bxs-dashboard bx-md'>Dashboard</i>
+	</div>
+	<div class="users">
+    <a href="#"><i class='fas fa-users bx-md'>Tenants</i></a>
+    </div>
+	<div class="floors">
+	<i class='bx bx-building-house bx-md'>Floors</i>
+	</div>
+	<div class="money">
+	<i class='bx bx-money bx-md'>Payments</i>
+	</div>
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: hsl(115,50%,80%);
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.header {
+    position: absolute;
+    font-size: 30px;
+    
+    right: 30px;
+    top: 60px;
+}
+.content {
+    
+    height:100vh;
+    width: 300px;
+    background: rgba(9, 9, 230, 0.5);
+}
+.bx-user-circle {
+    position: absolute;
+    right: 150px;
+    top: 20px;
+    
+}
+
+a {
+    color: #000;
+}
+.user a:hover{
+    color: #fff;
+}
+
+.bx-log-out {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    
+}
+.dash {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    width: 300px;
+    height: 60px;
+    background: rgba(95, 95, 206, 0.5);
+
+}
+.dash .bxs-dashboard {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    color: #fff;
+    
+    
+}
+.user{
+    position: absolute;
+    background: rgba(95, 95, 206, 0.5);
+    top: 60px;
+    width: 300px;
+    height: 60px;
+}
+.user:hover {
+    background: black;
+    color: #fff;
+    cursor: pointer;
+}
+.fa-users {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    
+    
+}
+.floors {
+    position: absolute;
+    background: rgba(95, 95, 206, 0.5);
+    top: 120px;
+    width: 300px;
+    height: 60px;
+}
+.floors:hover {
+    background: black;
+    color: #fff;
+    cursor: pointer;
+}
+.bx-building-house {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+.money {
+    position: absolute;
+    background: rgba(95, 96, 206, 0.5);
+    top: 180px;
+    width: 300px;
+    height: 60px;
+}
+.money:hover {
+    background: black;
+    color: #fff;
+    cursor: pointer;
+}
+.bx-money {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+    

@@ -1,0 +1,111 @@
+
+/*============================
+Hedaer
+========================*/
+a{
+    text-decoration: none;
+}
+header {
+    color: #fff;
+}
+header .Welcome{
+    margin-left: 20rem;
+}
+.dashboard button{
+    margin-top: 10rem;
+    padding:10px 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+.dashboard{
+    
+    background-color: rgba(9, 9, 230, 0.5);
+    height: 100vh;
+    color: #fff;
+    width:70%;
+}
+.dashboard li{
+    list-style: none;
+    background-color: #000;
+    line-height: 60px;
+    margin-left: 20px;
+    padding:0px 20px; 
+    border-radius: 5px;
+}
+.dashboard li:hover{
+    background-color: #fff;
+    color: #000;
+}
+.dashboard a li:hover {
+    color: #000;
+}
+
+.dashboard a {
+    color: #fff;
+    text-decoration: none;
+}
+.row .col-sm-9 h2{
+    float: right;
+}
+.row .col-sm-9 .col-sm-4{
+    max-width: 240px;
+    height: 200px;
+   
+}
+.row .col-sm-9 .border3 .d-flex{
+  
+   
+   
+}
+.border3{
+    border: 2px solid green;
+    color: #fff;
+}
+.border2{
+    border: 2px solid yellow;
+    color: #fff;
+}
+.border1{
+    border: 2px solid blue;
+    color: #fff;
+}
+.row .col-sm-9 .col-sm-4 .card-house {
+    float: right;
+}
+.row .col-sm-9 .col-sm-4 .card-house a{
+   color: #fff;
+  
+}
+table tr th,table tr td{
+    height: 30px;
+   padding: 15px;
+
+}
+table tr .name-table{
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.badd{
+    position: absolute;
+    top: 0px;
+    left: 50rem;
+    right: 0px;
+    margin-top: 5px;
+}
+.badd1{
+    position: absolute;
+    top: 0px;
+    left: 45rem;
+    right: 0px;
+    margin-top: 5px;
+}
+table{
+    width: 90%;
+}
+.tenant{
+    width: 100% !important;
+    padding-right: 20px;
+}
+table .btn,form .btn{
+    border-radius: 5px;
+}

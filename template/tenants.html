@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <title>Rental Management System</title>
+</head>
+<body>
+    <header>
+        <div class="navbar bg-dark">
+        <div class="container">
+            <nav>
+                
+                    <div class="row">
+                        <h2>Rental Management System </h2>
+                        <h2 class="Welcome">Welcome , Admin</h2>
+                    </div>
+            </nav>
+        </div>
+    </div>
+    </header>
+    <div class="row">
+        <div class="col-sm-3 dashboard">
+            <a href="./index.html"><li class="mt-2"><i class="fas fab-home"></i>Dashboard</li></a>
+            <a href="./tenants.html"><li class="mt-2"><i class="fa fab-home"></i>Tenants</li></a>
+            <a href="./house.html"><li class="mt-2"><i class="fas fab-home"></i>House Details</li></a>
+            <a href="./occupied.html"><li class="mt-2"><i class="fa fab-home"></i>Occupied</li></a>
+            <a href="./paymet.html"><li class="mt-2"><i class="fas fab-home"></i>Paymet</li></a>
+         
+           
+         
+        </div>
+        <div class="col-sm-9 ">
+            <div class="ml-auto mt-3">
+                <button class="btn btn-info badd" data-toggle="modal" data-target="#mypay">Add Tenant</button>
+            </div>
+            <table class="table-bordered mt-5"> 
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>ID NO</th>
+                    <th>Primary Phone NO</th>
+                    <th>Secondary Phone NO</th>
+                    <th>Email Address</th>
+                    <th>Action</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td class="name-table">JOHN SMITH BB</td>
+                    <td>76755656</td>
+                    <td>99539459 </td>
+                    <td>9301543959</td>
+                    <td>johnsmith@yahoo.com</td>
+                    <td><button>Delete</button>  <button>Update</button></td>
+                   
+
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td class="name-table">JOHN SMITH BB</td>
+                    <td>76755656</td>
+                    <td>99539459 </td>
+                    <td>9301543959</td>
+                    <td>johnsmith@yahoo.com</td>
+                    <td><button>Delete</button>  <button>Update</button></td>
+                   
+
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td class="name-table">JOHN SMITH BB</td>
+                    <td>76755656</td>
+                    <td>99539459 </td>
+                    <td>9301543959</td>
+                    <td>johnsmith@yahoo.com</td>
+                    <td><button>Delete</button>  <button>Update</button></td>
+                   
+
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td class="name-table">JOHN SMITH BB</td>
+                    <td>76755656</td>
+                    <td>99539459 </td>
+                    <td>9301543959</td>
+                    <td>johnsmith@yahoo.com</td>
+                    <td><button>Delete</button>  <button>Update</button></td>
+                   
+
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td class="name-table">JOHN SMITH BB</td>
+                    <td>76755656</td>
+                    <td>99539459 </td>
+                    <td>9301543959</td>
+                    <td>johnsmith@yahoo.com</td>
+                    <td><button>Delete</button>  <button>Update</button></td>
+                   
+
+                </tr>
+            
+            </table>
+        
+        </div>
+    </div>
+    <div class="container">
+        <!-- Modal -->
+        <div class="modal fade" id="mypay" role="dialog">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Tenant Details</h4>
+                        <button type="button" class="close" data-dismiss="modal">×</button>
+                    </div>
+    
+                    <div class="modal-body">
+                        <form action="">
+                            <div class="form-group">
+                                <label for="">Your Name</label>
+                            <input type="text" class="form-control px-2 mt-1" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Your ID Number</label>
+                            <input type="text" class="form-control px-2 mt-1" required>
+                            </div>
+    
+                            <div class="form-group">
+                                <label for="">Primary Phone Number</label>
+                            <input type="text" class="form-control px-2 mt-1" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Secondary Phone Number</label>
+                            <input type="text" class="form-control px-2 mt-1" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Email Address</label>
+                            <input type="text" class="form-control px-2 mt-1" required>
+                            </div>
+                    </div>
+                    <div class="modal-footer">
+    
+                        <button type="submit" name="send" class="btn btn-info">Save</button>
+                    </div>
+                    </form>
+    
+    
+    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    
+
+    
+</body>
+</html>

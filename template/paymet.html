@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <title>Rental Management System</title>
+</head>
+<body>
+    <header>
+        <div class="navbar bg-dark">
+        <div class="container">
+            <nav>
+                
+                    <div class="row">
+                        <h2>Rental Management System </h2>
+                        <h2 class="Welcome">Welcome , Admin</h2>
+                    </div>
+            </nav>
+        </div>
+    </div>
+    </header>
+    <div class="row">
+        <div class="col-sm-3 dashboard">
+            <a href="./index.html"><li class="mt-2"><i class="fas fab-home"></i>Dashboard</li></a>
+            <a href="./tenants.html"><li class="mt-2"><i class="fa fab-home"></i>Tenants</li></a>
+            <a href="./house.html"><li class="mt-2"><i class="fas fab-home"></i>House Details</li></a>
+            <a href="./occupied.html"><li class="mt-2"><i class="fa fab-home"></i>Occupied</li></a>
+            <a href="./paymet.html"><li class="mt-2"><i class="fas fab-home"></i>Paymet</li></a>
+         
+           
+         
+        </div>
+        <div class="col-sm-9 ">
+            <div class="ml-auto mt-3">
+                <button class="btn btn-info badd1"  data-toggle="modal" data-target="#mypay">Add Tenant</button>
+            </div>
+            <table class="table-bordered mt-5"> 
+                <tr>
+                    <th>#</th>
+                    <th>Date</th>
+                    <th>Tenant</th>
+                    <th>Invoive</th>
+                    <th>Paymet Mode</th>
+                    <th>Amount</th>
+                    
+                    <th>Action</th>
+                </tr>
+                <tr>
+                    <tr>
+                        <td>1</td>
+                        <td>octover</td>
+                        <td class="name-table">john Smith</td>
+                        <td>9698</td>
+                        <td>MPESA</td>
+                        <td>78 000</td>
+                        <td><button>Delete</button>  <button>Update</button></td>
+
+                    </tr>
+
+                
+               
+            
+            </table>
+        
+        </div>
+    </div>
+    <div class="container col-sm-6">
+        <!-- Modal -->
+        <div class="modal fade" id="mypay" role="dialog">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Paymet Details</h4>
+                        <button type="button" class="close" data-dismiss="modal">×</button>
+                    </div>
+    
+                    <div class="modal-body">
+                        <form action="">
+                            <div class="form-group">
+                                <label for="">Date of Paymet</label>
+                            <input type="date" class="form-control px-2 mt-1" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Tenant Name</label>
+                            <input type="text" class="form-control px-2 mt-1" required>
+                            </div>
+    
+                            <div class="form-group">
+                                <label for="">Invoive Number</label>
+                            <input type="text" class="form-control px-2 mt-1" required>
+                            </div>
+                            <div class="form-group">
+                            <select name="" id="" class="form-control">
+                                <option value="">Select Mode Of  Paymet</option>
+                                <option value="MPESA">MPESA</option>
+                                <option value="Bank Account">Bank Account</option>
+                                <option value="Cash">Cash</option>
+                            </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Amount</label>
+                            <input type="number" min="0" class="form-control px-2 mt-1" required>
+                            </div>
+                    </div>
+                    <div class="modal-footer">
+    
+                        <button type="submit" name="send" class="btn btn-info">Save</button>
+                    </div>
+                    </form>
+    
+    
+    
+                </div>
+            </div>
+        </div>
+    </div>
